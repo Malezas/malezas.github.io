@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;   
+}
+
+.bg-nav {
+    background-color: #373A3C;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    top: 14rem;
+}
+
+.hr-carousel {
+    margin-top: 80px;
+}
+
+@media screen and (max-width:991px){
+    .carousel {
+        display: none;
+    }
+}
+
+.hr-margen {
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.sub {
+    display: inline-block;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+}
+
+.rojo {
+    background-color: #DC3545;
+    padding: 100px;
+}
+
+.ricomida {
+    font-family: 'Lobster', cursive;
+}
+
+.rico-footer {
+    background-color: #373A3C;
+    font-size: 38px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
